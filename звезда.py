@@ -4,7 +4,7 @@ def koch(turtle, length, depth):
     if depth == 0:
         turtle.forward(length)
     else:
-        koch(turtle, length / 3, depth - 1)
+        koch(turtle, length / 4, depth - 1)
         turtle.left(60)
         koch(turtle, length / 3, depth - 1)
         turtle.right(120)
