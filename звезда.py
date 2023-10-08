@@ -6,11 +6,11 @@ def koch(turtle, length, depth):
     else:
         koch(turtle, length / 4, depth - 1)
         turtle.left(60)
-        koch(turtle, length / 3, depth - 1)
+        koch(turtle, length / 6, depth - 1)
         turtle.right(120)
-        koch(turtle, length / 3, depth - 1)
+        koch(turtle, length / 4, depth - 1)
         turtle.left(60)
-        koch(turtle, length / 3, depth - 1)
+        koch(turtle, length / 7, depth - 1)
 
 def snowflake(turtle, length, depth):
     for i in range(3):
